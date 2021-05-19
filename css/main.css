@@ -1,0 +1,152 @@
+/* change the font family and weight of the navbar */
+nav {
+    font-family: 'Ultramagnetic Bold', 'Century Gothic', 'Arial', sans-serif;
+    font-weight: bold;
+}
+.navbar-custom {
+    background-color: #011d41;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #fff;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #fff;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #a7a7a9;
+}
+
+
+
+/* change background image for top jumbotron */
+#top_jumbo {
+    background-image: linear-gradient(rgba(255, 254, 248, 0.432), rgba(255, 255, 255, 1)), url('../images/bg-net_rack.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* change jombotron lead shadow effect */
+#jumbo_fx {
+    text-shadow: -2px 2px 4px rgba(43, 43, 82, 0.35);
+}
+
+/* change top display that replaces jumbo on additional pages */
+.top_display {
+    text-align: center;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,251,241,1) 100%);
+    
+}
+
+
+
+/* change h1, h2, h3 color and font */
+h1, h2, h3 {
+    font-family: 'Ultramagnetic Bold', 'Century Gothic', 'Arial', sans-serif;
+    font-weight: bold;
+    color: #00467f;
+}
+/* change h4, h5 color, font, capitalization */
+h4, h5 {
+    font-family: 'Ultramagnetic Bold', 'Century Gothic', 'Arial', sans-serif;
+    font-weight: bold;
+    color: #00467f;
+    text-transform: uppercase;
+}
+/* change hr color to gold */
+hr {
+    background-color: #e7a614;
+}
+
+/* change decorative images */
+.img-decorative {
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* change speaker images  */
+#speaker_img {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 5px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#keynote {
+    border-width: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* change accordion heading style for member list */
+.bio_card {
+    font-family: 'Ultramagnetic Bold', 'Century Gothic', 'Arial', sans-serif;
+    font-weight: bold;
+    color: #00467f;
+}
+
+
+/* change link behavior */
+#side_link {
+    color: #00467f;
+    text-decoration: none;
+    font-weight: bold;
+}
+#side_link:hover {
+    color: #fff;
+    background-color: #00467f;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+/* change footer color */
+footer {
+    background-color: #011d41;
+}
+/* change footer href styling */
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Social Media Icon Styling */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #4267B2;
+    color: white;
+}
+.fa-instagram {
+    background: #C13584;
+    color: white;
+}
+.fa-twitter {
+    background: #1DA1F2;
+    color: white;
+}
+footer .fa {
+    padding: 2px;
+    margin: 3px 1px;
+    background: transparent;
+}
